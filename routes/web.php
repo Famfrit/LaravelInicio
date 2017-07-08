@@ -23,3 +23,5 @@ Route::get('/demo', function()
 {
 	return view('demo');
 });
+
+Route::get('user/{user}', 'UserController@show');
